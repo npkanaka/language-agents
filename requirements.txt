@@ -1,0 +1,6 @@
+   streamlit
+   PyMuPDF
+   requests
+   chromadb
+   sentence-transformers
+   pyyaml

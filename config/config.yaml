@@ -1,0 +1,12 @@
+llm:
+  port: 8080
+
+rag:
+  enabled: true
+  rebuild_db: true
+
+paths:
+  db_path: "data/chroma_db"
+  documents_folder: "data/documents"
+  links_file: "data/document_links.txt"
+  logs_dir: "logs"
