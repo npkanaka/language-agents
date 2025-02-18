@@ -33,3 +33,10 @@ class ConversationManager:
 
         conversation.append("Assistant:")  # Ensures LLM knows where to continue
         return "\n".join(conversation)
+    
+    def get_last_message_by_role(self, role: str):
+        """Returns the last message for the given role ('user' or 'assistant')."""
+        for message in reversed(self.get_conversation()):
+            if message.get("role") == role:
+                return message
+        return None

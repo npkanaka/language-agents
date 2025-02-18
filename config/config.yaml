@@ -2,7 +2,6 @@ llm:
   port: 8080
 
 rag:
-  enabled: true
   rebuild_db: true
 
 paths:
@@ -10,3 +9,4 @@ paths:
   documents_folder: "data/documents"
   links_file: "data/document_links.txt"
   logs_dir: "logs"
+  debug_store: "logs/debug_store"
