@@ -1,4 +1,4 @@
-# MoreOn Chatbot
+# MoreOn Chatbot (Outdated after MCP and A2A)
 
 MoreOn Chatbot is a Streamlit-based conversational AI interface that integrates with an external Language Model API. It optionally enhances responses using Retrieval Augmented Generation (RAG) by indexing documents (PDFs and text files) with ChromaDB and SentenceTransformers.
 
